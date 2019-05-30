@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contabilidad</title>
+	<link rel="stylesheet" type="text/css" href="estilodp.css">
+  <script type="text/javascript" src="js/sumacostop.js" language="javascript"></script>
+  <script type="text/javascript" src="js/costosdproduccion.js" language="javascript"></script>
+  <script type="text/javascript" src="js/costosindirectos.js" language="javascript"></script>
+  <script type="text/javascript" src="js/costosddistribucion.js" language="javascript"></script>
+  <script type="text/javascript" src="js/costototaldop.js" language="javascript"></script>
+</head>
+<body>
+	<header>
+    <h2>Calculadora de contabilidad</h2>
+            <div id="menuToggle">
+              <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+              <li><a href="index.html">Idioma</a></li>
+              <li><a href="TutorialES.html">Tutorial</a></li>
+              <li><a href="TYCondicionesES.html">Terminos y condiciones</a></li>
+            </ul>
+           </div>
+	</header>
+          <form>
+            <p><b>Costo primo</b></p>
+
+            <div>
+              <input type="number" name="" id="mp" placeholder="Materia Prima" onclick="operacion()">
+            </div>
+
+            <div>
+              <input type="number" id="mo" name="" placeholder="Mano de Obra Directa" onclick="operacion()">
+            </div>
+
+            <div>
+              <input type="number" name="" placeholder="Costo Primo" id="resultado">
+            </div>
+
+            <div>
+              <input type="button" name="" value="Costo Primo" onclick="operación()">
+            </div>
+
+            <p><b>Costo de Producción</b></p>
+            <div>
+              <input type="number" name="" id="g" placeholder="Gastos Generales de Fabricación Directos" onclick="cdp()">
+            </div>
+
+            <div>
+              <input type="number" name="" id="cd" placeholder="Costos Directos" onclick="cdp()">
+            </div>
+
+            <div>
+                <input type="number" name="" placeholder="Costo de Producción" id="cp">  
+            </div>
+            
+            <div>
+              <input type="button" name="" value="Costo de Producción" onclick="cdp()">
+            </div>
+
+            <p><b>Costos Indirectos</b></p>
+
+            <div>
+              <input type="number" name="" id="mp" placeholder="Materia Prima Indirecta" onclick="ci()">
+            </div>
+
+            <div>
+              <input type="number" name="" id="mi" placeholder="Mano de Obra Indirecta" onclick="ci()">
+            </div>
+
+            <div>
+              <input type="number" name="" id="gg" placeholder="Gastos Generales de Fabricación Indirecta" onclick="ci()">
+            </div>
+
+            <div>
+              <input type="number" placeholder="Costos Indirectos" id="Costosindirectos">
+            </div>
+
+            <div>
+              <input type="button" name="" value="Costo de Producción" onclick="ci()">
+            </div>
+
+            <p><b>Costo de Distribución</b></p>
+
+            <div>
+              <input type="number" name="" id="gd" placeholder="Gastos de Venta" onclick="cis()">
+            </div>
+
+            <div>
+              <input type="number" name="" id="ga" placeholder="Gastos de Administración" onclick="cis()">
+            </div>
+
+            <div>
+              <input type="number" name="" id="r" placeholder="Costo de Distribución">
+            </div> 
+
+            <div>
+              <input type="button" name="" value="Costo de Producción" onclick="cis()">
+            </div>
+
+            <p><b>Costo Total de Operación</b></p>
+
+            <div>
+              <input type="number" name="" id="cpro" placeholder="Coste de Producción" onclick="cop()" >
+            </div>
+
+            <div>
+              <input type="number" name="" id="cid" placeholder="Costo de Distribución" onclick="cop()">
+            </div>
+
+            <div>
+              <input type="number" name="" id="res" placeholder="Costo total de Operación">
+            </div>
+
+            <div>
+              <input type="button" name="" value="Costo de Producción" onclick="cop()">
+            </div>
+
+          </form>
+  <section>
+    
+  </section>
+</body>
+</html>

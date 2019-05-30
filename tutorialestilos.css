@@ -1,0 +1,39 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-color: #A91CDA;
+	color: #fff;
+	margin: 0;
+	padding: 20px;
+}
+.boton
+{
+	border:0;
+	float: right;
+	height: 35px;
+	width: 120px;
+	color: #fff;
+	font-size: 15px;
+	margin-top:-000000000037px;
+	background-color: #F053FA;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+header h1
+{
+	text-align: center;
+}
+.centrarT
+{
+	font-size: 20px;
+	margin-top: 60px;
+	width: 400px;
+	text-align: left;
+	margin-left: 510px;
+}
